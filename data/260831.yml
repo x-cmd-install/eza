@@ -1,0 +1,63 @@
+about:
+  description: A modern alternative to ls
+  license: EUPL-1.2
+  homepage: https://eza.rocks
+  head: 471bfbc
+  archived: false
+  latestVersion: v0.23.5
+  collectedAt: 2026-08-31T06:17:16Z
+timeline:
+  created: 2023-07-28
+  lastCommit: 2026-07-09
+  lastRelease: 2026-07-09
+popularity:
+  star: 23097
+  watcher: 37
+  fork: 514
+  release: 96
+  contributor: 123
+  pullRequest: 369
+  issue: 692
+language:
+  Rust: 667532
+  PowerShell: 21879
+  Shell: 17495
+  Just: 11488
+  Nix: 10153
+  Nushell: 4765
+  Brainfuck: 176
+  Python: 22
+totalLine: 733510
+recent:
+  last30d:
+    since: 2026-08-01
+    release: 0
+    mergedPR: 0
+    openPR: 23
+    closedIssue: 0
+    openIssue: 10
+    commit: 0
+  last90d:
+    since: 2026-06-02
+    release: 1
+    mergedPR: 4
+    openPR: 51
+    closedIssue: 2
+    openIssue: 37
+    commit: 10
+  last180d:
+    since: 2026-03-04
+    release: 1
+    mergedPR: 6
+    openPR: 76
+    closedIssue: 5
+    openIssue: 57
+    commit: 13
+  last360d:
+    since: 2025-09-05
+    release: 4
+    mergedPR: 22
+    openPR: 107
+    closedIssue: 15
+    openIssue: 100
+    commit: 44
