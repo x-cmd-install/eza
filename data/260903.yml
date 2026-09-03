@@ -1,22 +1,24 @@
 about:
-  description: A modern alternative to ls
+  description:
+  |
+    A modern alternative to ls
   license: EUPL-1.2
   homepage: https://eza.rocks
   head: 471bfbc
   archived: false
   latestVersion: v0.23.5
-  collectedAt: 2026-09-03T05:12:31Z
+  collectedAt: 2026-09-03T22:37:03Z
 timeline:
   created: 2023-07-28
   lastCommit: 2026-07-09
   lastRelease: 2026-07-09
 popularity:
-  star: 23135
+  star: 23141
   watcher: 38
   fork: 517
   release: 96
   contributor: 123
-  pullRequest: 372
+  pullRequest: 373
   issue: 693
 language:
   Rust: 667532
@@ -27,7 +29,7 @@ language:
   Nushell: 4765
   Brainfuck: 176
   Python: 22
-totalLine: 733510
+totalBytes: 733510
 recent:
   last30d:
     since: 2026-08-04
@@ -57,7 +59,7 @@ recent:
     since: 2025-09-08
     release: 3
     mergedPR: 22
-    openPR: 108
+    openPR: 109
     closedIssue: 15
     openIssue: 100
     commit: 44
