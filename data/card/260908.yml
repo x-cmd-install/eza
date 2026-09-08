@@ -5,13 +5,13 @@ about:
   head: 471bfbc
   archived: false
   latestVersion: "v0.23.5"
-  collectedAt: 2026-09-08T02:47:03Z
+  collectedAt: 2026-09-08T05:33:04Z
 timeline:
   created: 2023-07-28
   lastCommit: 2026-07-09
   lastRelease: 2026-07-09
 popularity:
-  star: 23185
+  star: 23187
   watcher: 39
   fork: 518
   release: 96
@@ -86,7 +86,7 @@ total:
   commit: 3372
 ---
 path: /home/runner/.x-repo/github.com/eza-community/eza
-collectedAt: 2026-09-08T02:47:04Z
+collectedAt: 2026-09-08T05:33:05Z
 loc:
   Rust:
     code: 14161

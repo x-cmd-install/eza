@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 1491797,
       "digest": "sha256:c830638c844a5b89d39ba662b5549903a71fa539018e813880f5b8afa77bac2e",
-      "download_count": 28068,
+      "download_count": 28112,
       "created_at": "2026-07-09T10:10:09Z",
       "updated_at": "2026-07-09T10:10:09Z",
       "browser_download_url": "https://github.com/eza-community/eza/releases/download/v0.23.5/eza.exe_x86_64-pc-windows-gnu.zip"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 1137855,
       "digest": "sha256:40b87ae8628aa2ff0f0d2dc24ab52f689631366385c3da630bae745671fd71ec",
-      "download_count": 9598,
+      "download_count": 9611,
       "created_at": "2026-07-09T10:10:08Z",
       "updated_at": "2026-07-09T10:10:08Z",
       "browser_download_url": "https://github.com/eza-community/eza/releases/download/v0.23.5/eza_aarch64-unknown-linux-gnu.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 1243074,
       "digest": "sha256:35c70c5c43c29108075e58b893234c67ef585f0b53a7eaf8e9e7d4eec9f339b4",
-      "download_count": 38890,
+      "download_count": 39042,
       "created_at": "2026-07-09T10:10:09Z",
       "updated_at": "2026-07-09T10:10:10Z",
       "browser_download_url": "https://github.com/eza-community/eza/releases/download/v0.23.5/eza_x86_64-unknown-linux-gnu.tar.gz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 1242682,
       "digest": "sha256:f3bfd758743699e6c8ac38c6c65cf4aadc8f02d046a0af5a4c4b28e59e305a5a",
-      "download_count": 1164,
+      "download_count": 1166,
       "created_at": "2026-07-09T10:10:09Z",
       "updated_at": "2026-07-09T10:10:10Z",
       "browser_download_url": "https://github.com/eza-community/eza/releases/download/v0.23.5/eza_x86_64-unknown-linux-gnu.zip"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 1412332,
       "digest": "sha256:e06eebab74b73d6b7d51a796a353824b001bea82df077706382e100815d28904",
-      "download_count": 21732,
+      "download_count": 21774,
       "created_at": "2026-07-09T10:10:09Z",
       "updated_at": "2026-07-09T10:10:10Z",
       "browser_download_url": "https://github.com/eza-community/eza/releases/download/v0.23.5/eza_x86_64-unknown-linux-musl.tar.gz"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 10548,
       "digest": "sha256:cbdae2ad79ae0ef1fd6a06f4644c90cef79a56353bc3bb7cf4663bb2831420f9",
-      "download_count": 908,
+      "download_count": 910,
       "created_at": "2026-07-09T10:10:10Z",
       "updated_at": "2026-07-09T10:10:10Z",
       "browser_download_url": "https://github.com/eza-community/eza/releases/download/v0.23.5/man-0.23.5.tar.gz"
