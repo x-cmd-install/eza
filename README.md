@@ -7,7 +7,7 @@ A modern alternative to ls
 - **Latest release**: `v0.23.5` (2026-07-09)
 - **Last commit**: 2026-07-09
 - **License**: EUPL-1.2
-- **Stars**: 23195 · **Forks**: 518 · **Open issues**: 693 · **Contributors**: 123
+- **Stars**: 23202 · **Forks**: 518 · **Open issues**: 694 · **Contributors**: 123
 
 ## Installation
 
@@ -21,4 +21,4 @@ See <https://x-cmd.com/install/eza> for details.
 
 This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-09T05:41:16Z._
+_Last regenerated: 2026-09-09T20:17:51Z._
