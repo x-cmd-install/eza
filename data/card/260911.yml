@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.23.5"
   latestRelease: "v0.23.5"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T05:35:19Z
+  collectedAt: 2026-09-11T19:18:51Z
 timeline:
   created: 2023-07-28
   lastCommit: 2026-07-09
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-07-09
   lastPrerelease: 
 popularity:
-  star: 23217
+  star: 23223
   watcher: 39
   fork: 519
   release: 96
@@ -90,7 +90,7 @@ total:
   commit: 3372
 ---
 path: /home/runner/.x-repo/github.com/eza-community/eza
-collectedAt: 2026-09-11T05:35:20Z
+collectedAt: 2026-09-11T19:18:54Z
 loc:
   Rust:
     code: 14161
