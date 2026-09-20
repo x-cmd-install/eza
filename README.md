@@ -4,7 +4,7 @@
 
 A modern alternative to ls
 
-![eza](https://repo.x-cmd.io/eza.svg)
+[![x-cmd/install — eza Code Quality Monitoring Repo Card](https://repo.x-cmd.io/eza.svg)](https://x-cmd.com/install/eza)
 
 ## Install
 
@@ -38,22 +38,22 @@ Total: **15,918** lines of code across **271** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 23,303 · **Forks**: 522 · **Open issues**: 696 · **Contributors**: 123
+- **Stars**: 23,320 · **Forks**: 525 · **Open issues**: 696 · **Contributors**: 123
 
 ## Totals (cumulative)
 
-- **Releases**: 96 · **Merged PRs**: 701 · **Open PRs**: 161 · **Closed issues**: 405 · **Open issues**: 291 · **Commits**: 3372
+- **Releases**: 96 · **Merged PRs**: 701 · **Open PRs**: 163 · **Closed issues**: 405 · **Open issues**: 291 · **Commits**: 3372
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 14 | 1 | 9 | 0 |
-| last60d | 2026-07-20 | 0 | 0 | 38 | 1 | 19 | 0 |
-| 90d | 2026-06-20 | 1 | 4 | 53 | 2 | 36 | 10 |
-| last180d | 2026-03-22 | 1 | 6 | 79 | 6 | 54 | 12 |
-| 360d | 2025-09-23 | 2 | 19 | 113 | 16 | 98 | 40 |
-| last720d | 2024-09-28 | 39 | 192 | 139 | 97 | 163 | 303 |
+| 30d | 2026-08-21 | 0 | 0 | 15 | 1 | 5 | 0 |
+| last60d | 2026-07-22 | 0 | 0 | 38 | 1 | 19 | 0 |
+| 90d | 2026-06-22 | 1 | 4 | 53 | 2 | 35 | 10 |
+| last180d | 2026-03-24 | 1 | 6 | 80 | 6 | 53 | 12 |
+| 360d | 2025-09-25 | 2 | 19 | 115 | 16 | 96 | 40 |
+| last720d | 2024-09-30 | 39 | 191 | 141 | 96 | 163 | 291 |
 
 ## Release assets
 
@@ -85,4 +85,4 @@ Install metadata for eza lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:55:15Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:54:42Z._
