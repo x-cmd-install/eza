@@ -4,7 +4,7 @@
 
 A modern alternative to ls
 
-[![x-cmd/install — eza Code Quality Monitoring Repo Card](https://repo.x-cmd.io/eza.svg?lang=zh)](https://x-cmd.com/install/eza)
+[![x-cmd/install — eza Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/eza.svg?lang=zh)](https://x-cmd.com/install/eza)
 
 ## 安装
 
@@ -38,22 +38,22 @@ x install eza
 
 ## 流行度
 
-- **Star**: 23,338 · **Fork**: 524 · **开放 issue**: 696 · **贡献者**: 123
+- **Star**: 23,346 · **Fork**: 524 · **开放 issue**: 696 · **贡献者**: 123
 
 ## 累计统计
 
-- **发布数**: 96 · **已合并 PR**: 701 · **开放 PR**: 163 · **已关闭 issue**: 405 · **开放 issue**: 291 · **提交数**: 3372
+- **发布数**: 96 · **已合并 PR**: 701 · **开放 PR**: 163 · **已关闭 issue**: 406 · **开放 issue**: 290 · **提交数**: 3372
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 14 | 1 | 5 | 0 |
-| last60d | 2026-07-24 | 0 | 0 | 36 | 1 | 17 | 0 |
-| 90d | 2026-06-24 | 1 | 4 | 53 | 2 | 35 | 10 |
-| last180d | 2026-03-26 | 1 | 6 | 79 | 6 | 52 | 11 |
-| 360d | 2025-09-27 | 2 | 19 | 115 | 16 | 95 | 40 |
-| last720d | 2024-10-02 | 39 | 189 | 141 | 95 | 163 | 290 |
+| 30d | 2026-08-24 | 0 | 0 | 13 | 1 | 5 | 0 |
+| last60d | 2026-07-25 | 0 | 0 | 34 | 1 | 16 | 0 |
+| 90d | 2026-06-25 | 1 | 4 | 53 | 2 | 33 | 10 |
+| last180d | 2026-03-27 | 1 | 6 | 79 | 6 | 52 | 11 |
+| 360d | 2025-09-28 | 2 | 19 | 115 | 16 | 95 | 40 |
+| last720d | 2024-10-03 | 39 | 188 | 141 | 95 | 162 | 290 |
 
 ## Release 资产
 
@@ -85,4 +85,4 @@ eza 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:04:16Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T05:57:36Z._
