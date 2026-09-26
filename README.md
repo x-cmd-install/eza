@@ -38,7 +38,7 @@ Total: **15,918** lines of code across **271** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 23,364 · **Forks**: 525 · **Open issues**: 696 · **Contributors**: 123
+- **Stars**: 23,374 · **Forks**: 525 · **Open issues**: 696 · **Contributors**: 123
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **15,918** lines of code across **271** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-26 | 0 | 0 | 14 | 1 | 4 | 0 |
-| last60d | 2026-07-27 | 0 | 0 | 34 | 1 | 15 | 0 |
-| 90d | 2026-06-27 | 1 | 4 | 54 | 2 | 33 | 10 |
-| last180d | 2026-03-29 | 1 | 6 | 81 | 6 | 52 | 11 |
-| 360d | 2025-09-30 | 2 | 19 | 117 | 16 | 95 | 40 |
-| last720d | 2024-10-05 | 38 | 187 | 142 | 95 | 162 | 284 |
+| 30d | 2026-08-27 | 0 | 0 | 13 | 1 | 4 | 0 |
+| last60d | 2026-07-28 | 0 | 0 | 34 | 1 | 15 | 0 |
+| 90d | 2026-06-28 | 1 | 4 | 54 | 2 | 33 | 10 |
+| last180d | 2026-03-30 | 1 | 5 | 80 | 6 | 52 | 11 |
+| 360d | 2025-10-01 | 2 | 19 | 115 | 16 | 95 | 40 |
+| last720d | 2024-10-06 | 38 | 184 | 142 | 94 | 162 | 283 |
 
 ## Release assets
 
@@ -85,4 +85,4 @@ Install metadata for eza lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260925.yml` · 2026-09-25T05:48:51Z._
+_Snapshot: `data/card/260926.yml` · 2026-09-26T05:49:23Z._
