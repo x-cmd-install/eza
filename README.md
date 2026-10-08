@@ -38,22 +38,22 @@ Total: **15,918** lines of code across **271** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 23,488 · **Forks**: 537 · **Open issues**: 697 · **Contributors**: 123
+- **Stars**: 23,501 · **Forks**: 539 · **Open issues**: 697 · **Contributors**: 123
 
 ## Totals (cumulative)
 
-- **Releases**: 96 · **Merged PRs**: 701 · **Open PRs**: 172 · **Closed issues**: 406 · **Open issues**: 291 · **Commits**: 3372
+- **Releases**: 96 · **Merged PRs**: 701 · **Open PRs**: 173 · **Closed issues**: 406 · **Open issues**: 291 · **Commits**: 3372
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-07 | 0 | 0 | 16 | 1 | 3 | 0 |
-| last60d | 2026-08-08 | 0 | 0 | 37 | 1 | 13 | 0 |
-| 90d | 2026-07-09 | 1 | 0 | 52 | 2 | 31 | 0 |
-| last180d | 2026-04-10 | 1 | 5 | 84 | 6 | 52 | 11 |
-| 360d | 2025-10-12 | 1 | 16 | 119 | 16 | 93 | 36 |
-| last720d | 2024-10-17 | 37 | 180 | 147 | 91 | 162 | 278 |
+| 30d | 2026-09-08 | 0 | 0 | 17 | 1 | 3 | 0 |
+| last60d | 2026-08-09 | 0 | 0 | 38 | 1 | 13 | 0 |
+| 90d | 2026-07-10 | 0 | 0 | 51 | 2 | 30 | 0 |
+| last180d | 2026-04-11 | 1 | 5 | 85 | 6 | 52 | 11 |
+| 360d | 2025-10-13 | 1 | 16 | 120 | 15 | 93 | 36 |
+| last720d | 2024-10-18 | 36 | 178 | 147 | 91 | 162 | 276 |
 
 ## Release assets
 
@@ -85,4 +85,4 @@ Install metadata for eza lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261007.yml` · 2026-10-07T06:46:34Z._
+_Snapshot: `data/card/261008.yml` · 2026-10-08T06:55:15Z._
