@@ -1,84 +1,44 @@
-- repo: wakemeops
-  subrepo: terminal
-  binname: eza
-  visiblename: eza
-  version: 0.15.3
-  origversion: 0.15.3-1~ops2deb
-  status: legacy
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: rust-eza
+  binnames:
+    - librust-eza-dev
+    - eza
+  visiblename: rust-eza
+  version: 0.21.0
+  origversion: 0.21.0-1
+  status: outdated
   maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: eza
-  visiblename: eza
-  version: 0.15.2
-  origversion: 0.15.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: eza
-  visiblename: eza
-  version: 0.15.1
-  origversion: 0.15.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: eza
-  visiblename: eza
-  version: 0.15.0
-  origversion: 0.15.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: eza
-  visiblename: eza
-  version: 0.14.2
-  origversion: 0.14.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: eza
-  visiblename: eza
-  version: 0.14.1
-  origversion: 0.14.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: eza
-  visiblename: eza
-  version: 0.14.0
-  origversion: 0.14.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: gentoo
-  srcname: sys-apps/eza
-  visiblename: sys-apps/eza
-  version: 0.23.4
-  origversion: null
-  status: legacy
-  summary: A modern, maintained replacement for ls
-  maintainers:
-    - realidealseal@protonmail.com
-    - proxy-maint@gentoo.org
-  licenses:
-    - EUPL-1.2
-    - Apache-2.0
-    - MIT
-    - MPL-2.0
-    - Unicode-3.0
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - git@rxv.cc
+    - infinity0@debian.org
+    - sylvestre@debian.org
   categories:
-    - sys-apps
+    - misc
+- repo: homebrew
+  srcname: eza
+  visiblename: eza
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Modern, maintained replacement for ls
+- repo: kali_rolling
+  subrepo: main
+  srcname: rust-eza
+  binnames:
+    - librust-eza-dev
+    - eza
+  visiblename: rust-eza
+  version: 0.23.5
+  origversion: 0.23.5-5
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - git@rxv.cc
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - misc
 - repo: wakemeops
   subrepo: terminal
   binname: eza
@@ -88,111 +48,15 @@
   status: legacy
   maintainers:
     - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: eza
-  visiblename: eza
-  version: 0.13.0
-  origversion: 0.13.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: eza
-  visiblename: eza
-  version: 0.12.0
-  origversion: 0.12.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: eza
-  visiblename: eza
-  version: 0.11.1
-  origversion: 0.11.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: eza
-  visiblename: eza
-  version: 0.11.0
-  origversion: 0.11.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: gentoo
-  srcname: sys-apps/eza
-  visiblename: sys-apps/eza
-  version: 0.23.5
-  origversion: null
-  status: newest
-  summary: A modern, maintained replacement for ls
-  maintainers:
-    - realidealseal@protonmail.com
-    - proxy-maint@gentoo.org
-  licenses:
-    - EUPL-1.2
-    - Apache-2.0
-    - MIT
-    - MPL-2.0
-    - Unicode-3.0
-    - ZLIB
-  categories:
-    - sys-apps
-- repo: gnuguix
+- repo: pclinuxos
   srcname: eza
-  binname: eza
   visiblename: eza
-  version: 0.23.5
-  origversion: null
-  status: newest
+  version: 0.19.3
+  origversion: 0.19.3-1pclos2025
+  status: outdated
   summary: Modern replacement for ls
-- repo: wikidata
-  srcname: Q122357922
-  visiblename: eza
-  version: 0.23.5
-  origversion: null
-  status: newest
-  summary: modern replacement for ls
-  licenses:
-    - European Union Public Licence 1.2
-- repo: chimera
-  subrepo: user
-  srcname: eza
-  binname: eza-nucomp
-  visiblename: eza-nucomp
-  version: 0.23.5
-  origversion: 0.23.5-r1
-  status: newest
-  summary: Directory listing utility (nu completions)
-  licenses:
-    - EUPL-1.2
-- repo: chimera
-  subrepo: user
-  srcname: eza
-  binname: eza-bashcomp
-  visiblename: eza-bashcomp
-  version: 0.23.5
-  origversion: 0.23.5-r1
-  status: newest
-  summary: Directory listing utility (bash completions)
-  licenses:
-    - EUPL-1.2
-- repo: chimera
-  subrepo: user
-  srcname: eza
-  binname: eza-man
-  visiblename: eza-man
-  version: 0.23.5
-  origversion: 0.23.5-r1
-  status: newest
-  summary: Directory listing utility (manual pages)
-  licenses:
-    - EUPL-1.2
+  categories:
+    - File tools
 - repo: aerynos
   srcname: eza
   visiblename: eza
@@ -447,17 +311,6 @@
   summary: Fish completions for eza
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - EUPL-1.2
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: eza
-  binname: eza
-  visiblename: eza
-  version: 0.23.5
-  origversion: 0.23.5-2
-  status: newest
-  summary: A modern replacement for ls (community fork of exa)
   licenses:
     - EUPL-1.2
 - repo: alpine_3_22
@@ -761,12 +614,45 @@
 - repo: chimera
   subrepo: user
   srcname: eza
+  binname: eza-bashcomp
+  visiblename: eza-bashcomp
+  version: 0.23.5
+  origversion: 0.23.5-r1
+  status: newest
+  summary: Directory listing utility (bash completions)
+  licenses:
+    - EUPL-1.2
+- repo: chimera
+  subrepo: user
+  srcname: eza
   binname: eza-fishcomp
   visiblename: eza-fishcomp
   version: 0.23.5
   origversion: 0.23.5-r1
   status: newest
   summary: Directory listing utility (fish completions)
+  licenses:
+    - EUPL-1.2
+- repo: chimera
+  subrepo: user
+  srcname: eza
+  binname: eza-man
+  visiblename: eza-man
+  version: 0.23.5
+  origversion: 0.23.5-r1
+  status: newest
+  summary: Directory listing utility (manual pages)
+  licenses:
+    - EUPL-1.2
+- repo: chimera
+  subrepo: user
+  srcname: eza
+  binname: eza-nucomp
+  visiblename: eza-nucomp
+  version: 0.23.5
+  origversion: 0.23.5-r1
+  status: newest
+  summary: Directory listing utility (nu completions)
   licenses:
     - EUPL-1.2
 - repo: chimera
@@ -918,18 +804,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: freebsd
-  srcname: sysutils/eza
-  binname: eza
-  visiblename: sysutils/eza
-  version: 0.23.5
-  origversion: 0.23.5_3
-  status: newest
-  summary: Modern, maintained replacement for ls
-  maintainers:
-    - kdeguchi@sz.tokoha-u.ac.jp
-  categories:
-    - sysutils
 - repo: fedora_39
   subrepo: updates
   srcname: rust-eza
@@ -1072,37 +946,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: updates
-  srcname: rust-eza
-  binnames:
-    - eza
-    - rust-eza-devel
-    - rust-eza+default-devel
-    - rust-eza+git-devel
-    - rust-eza+git2-devel
-    - rust-eza-debuginfo
-    - rust-eza-debugsource
-  visiblename: rust-eza
-  version: 0.23.5
-  origversion: 0.23.5-1.fc44
-  status: newest
-  summary: Modern replacement for ls
-  licenses:
-    - EUPL-1.2
-  categories:
-    - Unspecified
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: eza
-  binname: eza
-  visiblename: eza
-  version: 0.23.5
-  origversion: 0.23.5-2
-  status: newest
-  summary: A modern replacement for ls (community fork of exa)
-  licenses:
-    - EUPL-1.2
-- repo: fedora_44
   subrepo: release
   srcname: rust-eza
   binnames:
@@ -1117,6 +960,26 @@
   version: 0.23.4
   origversion: 0.23.4-1.fc44
   status: legacy
+  summary: Modern replacement for ls
+  licenses:
+    - EUPL-1.2
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: rust-eza
+  binnames:
+    - eza
+    - rust-eza-devel
+    - rust-eza+default-devel
+    - rust-eza+git-devel
+    - rust-eza+git2-devel
+    - rust-eza-debuginfo
+    - rust-eza-debugsource
+  visiblename: rust-eza
+  version: 0.23.5
+  origversion: 0.23.5-1.fc44
+  status: newest
   summary: Modern replacement for ls
   licenses:
     - EUPL-1.2
@@ -1142,6 +1005,18 @@
     - EUPL-1.2
   categories:
     - Unspecified
+- repo: freebsd
+  srcname: sysutils/eza
+  binname: eza
+  visiblename: sysutils/eza
+  version: 0.23.5
+  origversion: 0.23.5_3
+  status: newest
+  summary: Modern, maintained replacement for ls
+  maintainers:
+    - kdeguchi@sz.tokoha-u.ac.jp
+  categories:
+    - sysutils
 - repo: gentoo
   srcname: sys-apps/eza
   visiblename: sys-apps/eza
@@ -1160,37 +1035,96 @@
     - Unicode-3.0
   categories:
     - sys-apps
-- repo: homebrew
-  srcname: eza
-  visiblename: eza
-  version: 0.23.5
+- repo: gentoo
+  srcname: sys-apps/eza
+  visiblename: sys-apps/eza
+  version: 0.23.4
   origversion: null
-  status: newest
-  summary: Modern, maintained replacement for ls
-- repo: homebrew
-  srcname: eza
-  visiblename: eza
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Modern, maintained replacement for ls
-- repo: kali_rolling
-  subrepo: main
-  srcname: rust-eza
-  binnames:
-    - librust-eza-dev
-    - eza
-  visiblename: rust-eza
-  version: 0.23.5
-  origversion: 0.23.5-5
-  status: newest
+  status: legacy
+  summary: A modern, maintained replacement for ls
   maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - git@rxv.cc
-    - infinity0@debian.org
-    - sylvestre@debian.org
+    - realidealseal@protonmail.com
+    - proxy-maint@gentoo.org
+  licenses:
+    - EUPL-1.2
+    - Apache-2.0
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
   categories:
-    - misc
+    - sys-apps
+- repo: nix_stable_24_11
+  srcname: eza
+  visiblename: eza
+  version: 0.20.24
+  origversion: null
+  status: outdated
+  summary: Modern, maintained replacement for ls
+  maintainers:
+    - christina@cafkafk.com
+    - plan9git@proton.me
+  licenses:
+    - EUPL-1.2
+- repo: nix_stable_25_05
+  srcname: eza
+  visiblename: eza
+  version: 0.21.3
+  origversion: null
+  status: outdated
+  summary: Modern, maintained replacement for ls
+  maintainers:
+    - christina@cafkafk.com
+    - plan9git@proton.me
+    - alpha@sigmasquadron.net
+  licenses:
+    - EUPL-1.2
+- repo: nix_stable_25_11
+  srcname: eza
+  visiblename: eza
+  version: 0.23.4
+  origversion: null
+  status: outdated
+  summary: Modern, maintained replacement for ls
+  maintainers:
+    - christina@cafkafk.com
+    - plan9git@proton.me
+    - alpha@sigmasquadron.net
+  licenses:
+    - EUPL-1.2
+- repo: gentoo
+  srcname: sys-apps/eza
+  visiblename: sys-apps/eza
+  version: 0.23.5
+  origversion: null
+  status: newest
+  summary: A modern, maintained replacement for ls
+  maintainers:
+    - realidealseal@protonmail.com
+    - proxy-maint@gentoo.org
+  licenses:
+    - EUPL-1.2
+    - Apache-2.0
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+    - ZLIB
+  categories:
+    - sys-apps
+- repo: gnuguix
+  srcname: eza
+  binname: eza
+  visiblename: eza
+  version: 0.23.5
+  origversion: null
+  status: newest
+  summary: Modern replacement for ls
+- repo: homebrew
+  srcname: eza
+  visiblename: eza
+  version: 0.23.5
+  origversion: null
+  status: newest
+  summary: Modern, maintained replacement for ls
 - repo: liguros_stable
   srcname: sys-apps/eza
   visiblename: sys-apps/eza
@@ -1229,27 +1163,6 @@
     - Unicode-3.0
   categories:
     - sys-apps
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: eza
-  binname: eza
-  visiblename: eza
-  version: 0.23.5
-  origversion: 0.23.5-2
-  status: newest
-  summary: A modern replacement for ls (community fork of exa)
-  licenses:
-    - EUPL-1.2
-- repo: msys2_clang64
-  srcname: mingw-w64-eza
-  binname: mingw-w64-clang-x86_64-eza
-  visiblename: mingw-w64-clang-x86_64-eza
-  version: 0.23.5
-  origversion: 0.23.5-1
-  status: newest
-  summary: A modern, maintained replacement for ls (mingw-w64)
-  licenses:
-    - spdx:EUPL-1.2
 - repo: liguros_stable
   srcname: sys-apps/eza
   visiblename: sys-apps/eza
@@ -1366,6 +1279,49 @@
     - EUPL-1.2
   categories:
     - Development/Rust
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: eza
+  binname: eza
+  visiblename: eza
+  version: 0.23.5
+  origversion: 0.23.5-2
+  status: newest
+  summary: A modern replacement for ls (community fork of exa)
+  licenses:
+    - EUPL-1.2
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: eza
+  binname: eza
+  visiblename: eza
+  version: 0.23.5
+  origversion: 0.23.5-2
+  status: newest
+  summary: A modern replacement for ls (community fork of exa)
+  licenses:
+    - EUPL-1.2
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: eza
+  binname: eza
+  visiblename: eza
+  version: 0.23.5
+  origversion: 0.23.5-2
+  status: newest
+  summary: A modern replacement for ls (community fork of exa)
+  licenses:
+    - EUPL-1.2
+- repo: msys2_clang64
+  srcname: mingw-w64-eza
+  binname: mingw-w64-clang-x86_64-eza
+  visiblename: mingw-w64-clang-x86_64-eza
+  version: 0.23.5
+  origversion: 0.23.5-1
+  status: newest
+  summary: A modern, maintained replacement for ls (mingw-w64)
+  licenses:
+    - spdx:EUPL-1.2
 - repo: msys2_clangarm64
   srcname: mingw-w64-eza
   binname: mingw-w64-clang-aarch64-eza
@@ -1398,44 +1354,6 @@
     - plan9git@proton.me
   licenses:
     - MIT
-- repo: nix_stable_24_11
-  srcname: eza
-  visiblename: eza
-  version: 0.20.24
-  origversion: null
-  status: outdated
-  summary: Modern, maintained replacement for ls
-  maintainers:
-    - christina@cafkafk.com
-    - plan9git@proton.me
-  licenses:
-    - EUPL-1.2
-- repo: nix_stable_25_05
-  srcname: eza
-  visiblename: eza
-  version: 0.21.3
-  origversion: null
-  status: outdated
-  summary: Modern, maintained replacement for ls
-  maintainers:
-    - christina@cafkafk.com
-    - plan9git@proton.me
-    - alpha@sigmasquadron.net
-  licenses:
-    - EUPL-1.2
-- repo: nix_stable_25_11
-  srcname: eza
-  visiblename: eza
-  version: 0.23.4
-  origversion: null
-  status: outdated
-  summary: Modern, maintained replacement for ls
-  maintainers:
-    - christina@cafkafk.com
-    - plan9git@proton.me
-    - alpha@sigmasquadron.net
-  licenses:
-    - EUPL-1.2
 - repo: nix_stable_26_05
   srcname: eza
   visiblename: eza
@@ -1614,32 +1532,6 @@
     - sylvestre@debian.org
   categories:
     - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: rust-eza
-  binnames:
-    - librust-eza-dev
-    - eza
-  visiblename: rust-eza
-  version: 0.21.0
-  origversion: 0.21.0-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - git@rxv.cc
-    - infinity0@debian.org
-    - sylvestre@debian.org
-  categories:
-    - misc
-- repo: pclinuxos
-  srcname: eza
-  visiblename: eza
-  version: 0.19.3
-  origversion: 0.19.3-1pclos2025
-  status: outdated
-  summary: Modern replacement for ls
-  categories:
-    - File tools
 - repo: pkgsrc_2026_2
   srcname: sysutils/eza
   binname: eza
@@ -1849,6 +1741,18 @@
   summary: A modern, maintained replacement for ls (maintained fork of exa)
   maintainers:
     - starkos@disroot.org
+- repo: terra_41
+  srcname: rust-eza
+  binname: rust-eza+nix-devel
+  visiblename: rust-eza+nix-devel
+  version: 0.23.4
+  origversion: 0.23.4-1.fc41
+  status: outdated
+  summary: Zsh completion for eza
+  licenses:
+    - EUPL-1.2
+  categories:
+    - Unspecified
 - repo: t2
   srcname: eza
   visiblename: eza
@@ -1872,23 +1776,6 @@
   summary: A modern replacement for ls
   maintainers:
     - tom@termux.dev
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: rust-eza
-  binnames:
-    - librust-eza-dev
-    - eza
-  visiblename: rust-eza
-  version: 0.23.5
-  origversion: 0.23.5-5
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - git@rxv.cc
-    - infinity0@debian.org
-    - sylvestre@debian.org
-  categories:
-    - universe/misc
 - repo: terra_41
   srcname: rust-eza
   binname: eza
@@ -2001,18 +1888,6 @@
   srcname: rust-eza
   binname: rust-eza+git2-devel
   visiblename: rust-eza+git2-devel
-  version: 0.23.4
-  origversion: 0.23.4-1.fc41
-  status: outdated
-  summary: Zsh completion for eza
-  licenses:
-    - EUPL-1.2
-  categories:
-    - Unspecified
-- repo: terra_41
-  srcname: rust-eza
-  binname: rust-eza+nix-devel
-  visiblename: rust-eza+nix-devel
   version: 0.23.4
   origversion: 0.23.4-1.fc41
   status: outdated
@@ -2119,18 +1994,6 @@
     - Unspecified
 - repo: terra_rawhide
   srcname: rust-eza
-  binname: rust-eza+nix-local-devel
-  visiblename: rust-eza+nix-local-devel
-  version: 0.23.4
-  origversion: 0.23.4-1.fcrawhide
-  status: outdated
-  summary: Zsh completion for eza
-  licenses:
-    - EUPL-1.2
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-eza
   binname: eza
   visiblename: eza
   version: 0.23.4
@@ -2201,6 +2064,15 @@
     - EUPL-1.2
   categories:
     - Unspecified
+- repo: wakemeops
+  subrepo: terminal
+  binname: eza
+  visiblename: eza
+  version: 0.14.0
+  origversion: 0.14.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: terra_rawhide
   srcname: rust-eza
   binname: eza-zsh-completion
@@ -2265,6 +2137,18 @@
   srcname: rust-eza
   binname: rust-eza+nix-generated-devel
   visiblename: rust-eza+nix-generated-devel
+  version: 0.23.4
+  origversion: 0.23.4-1.fcrawhide
+  status: outdated
+  summary: Zsh completion for eza
+  licenses:
+    - EUPL-1.2
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: rust-eza
+  binname: rust-eza+nix-local-devel
+  visiblename: rust-eza+nix-local-devel
   version: 0.23.4
   origversion: 0.23.4-1.fcrawhide
   status: outdated
@@ -2408,6 +2292,23 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - git@rxv.cc
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: rust-eza
+  binnames:
+    - librust-eza-dev
+    - eza
+  visiblename: rust-eza
+  version: 0.23.5
+  origversion: 0.23.5-5
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
     - git@rxv.cc
     - infinity0@debian.org
     - sylvestre@debian.org
@@ -2692,3 +2593,102 @@
   status: legacy
   maintainers:
     - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: eza
+  visiblename: eza
+  version: 0.15.3
+  origversion: 0.15.3-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: eza
+  visiblename: eza
+  version: 0.15.2
+  origversion: 0.15.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: eza
+  visiblename: eza
+  version: 0.15.1
+  origversion: 0.15.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: eza
+  visiblename: eza
+  version: 0.15.0
+  origversion: 0.15.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: eza
+  visiblename: eza
+  version: 0.14.2
+  origversion: 0.14.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: eza
+  visiblename: eza
+  version: 0.14.1
+  origversion: 0.14.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: eza
+  visiblename: eza
+  version: 0.13.0
+  origversion: 0.13.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: eza
+  visiblename: eza
+  version: 0.12.0
+  origversion: 0.12.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: eza
+  visiblename: eza
+  version: 0.11.1
+  origversion: 0.11.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: eza
+  visiblename: eza
+  version: 0.11.0
+  origversion: 0.11.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wikidata
+  srcname: Q122357922
+  visiblename: eza
+  version: 0.23.5
+  origversion: null
+  status: newest
+  summary: modern replacement for ls
+  licenses:
+    - European Union Public Licence 1.2
