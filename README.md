@@ -38,22 +38,22 @@ Total: **15,918** lines of code across **271** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 23,725 · **Forks**: 548 · **Open issues**: 698 · **Contributors**: 123
+- **Stars**: 23,734 · **Forks**: 550 · **Open issues**: 698 · **Contributors**: 123
 
 ## Totals (cumulative)
 
-- **Releases**: 96 · **Merged PRs**: 701 · **Open PRs**: 183 · **Closed issues**: 406 · **Open issues**: 292 · **Commits**: 3372
+- **Releases**: 96 · **Merged PRs**: 701 · **Open PRs**: 185 · **Closed issues**: 406 · **Open issues**: 292 · **Commits**: 3372
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 0 | 12 | 0 | 1 | 0 |
-| last60d | 2026-09-02 | 0 | 0 | 28 | 1 | 4 | 0 |
-| 90d | 2026-08-03 | 0 | 0 | 52 | 1 | 15 | 0 |
-| last180d | 2026-05-05 | 1 | 5 | 93 | 5 | 49 | 11 |
-| 360d | 2025-11-06 | 1 | 14 | 123 | 11 | 87 | 36 |
-| last720d | 2024-11-11 | 32 | 162 | 157 | 86 | 157 | 258 |
+| 30d | 2026-10-03 | 0 | 0 | 14 | 0 | 1 | 0 |
+| last60d | 2026-09-03 | 0 | 0 | 30 | 1 | 4 | 0 |
+| 90d | 2026-08-04 | 0 | 0 | 54 | 1 | 15 | 0 |
+| last180d | 2026-05-06 | 1 | 5 | 94 | 5 | 49 | 11 |
+| 360d | 2025-11-07 | 1 | 14 | 125 | 11 | 87 | 36 |
+| last720d | 2024-11-12 | 32 | 162 | 159 | 86 | 157 | 258 |
 
 ## Release assets
 
@@ -78,7 +78,7 @@ Total: **15,918** lines of code across **271** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **213** distros on [repology.org](https://repology.org/project/eza). **57** are ✅ on the latest upstream release, **105** are ⚠️ on an older version.
+Reported by **213** distros on [repology.org](https://repology.org/project/eza). **55** are ✅ on the latest upstream release, **107** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -104,4 +104,4 @@ Install metadata for eza lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:58:13Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:56:10Z._
