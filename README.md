@@ -38,7 +38,7 @@ Total: **15,918** lines of code across **271** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 23,734 · **Forks**: 550 · **Open issues**: 698 · **Contributors**: 123
+- **Stars**: 23,756 · **Forks**: 550 · **Open issues**: 698 · **Contributors**: 123
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **15,918** lines of code across **271** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 0 | 0 | 14 | 0 | 1 | 0 |
-| last60d | 2026-09-03 | 0 | 0 | 30 | 1 | 4 | 0 |
-| 90d | 2026-08-04 | 0 | 0 | 54 | 1 | 15 | 0 |
-| last180d | 2026-05-06 | 1 | 5 | 94 | 5 | 49 | 11 |
-| 360d | 2025-11-07 | 1 | 14 | 125 | 11 | 87 | 36 |
-| last720d | 2024-11-12 | 32 | 162 | 159 | 86 | 157 | 258 |
+| 30d | 2026-10-04 | 0 | 0 | 14 | 0 | 1 | 0 |
+| last60d | 2026-09-04 | 0 | 0 | 30 | 1 | 4 | 0 |
+| 90d | 2026-08-05 | 0 | 0 | 54 | 1 | 15 | 0 |
+| last180d | 2026-05-07 | 1 | 5 | 94 | 5 | 49 | 11 |
+| 360d | 2025-11-08 | 1 | 14 | 125 | 11 | 87 | 36 |
+| last720d | 2024-11-13 | 32 | 162 | 159 | 85 | 157 | 258 |
 
 ## Release assets
 
@@ -78,7 +78,7 @@ Total: **15,918** lines of code across **271** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **213** distros on [repology.org](https://repology.org/project/eza). **55** are ✅ on the latest upstream release, **107** are ⚠️ on an older version.
+Reported by **214** distros on [repology.org](https://repology.org/project/eza). **55** are ✅ on the latest upstream release, **108** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -104,4 +104,4 @@ Install metadata for eza lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T06:56:10Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T07:45:59Z._
