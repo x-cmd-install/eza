@@ -38,7 +38,7 @@ Total: **15,918** lines of code across **271** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 23,820 · **Forks**: 550 · **Open issues**: 699 · **Contributors**: 123
+- **Stars**: 23,830 · **Forks**: 550 · **Open issues**: 699 · **Contributors**: 123
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **15,918** lines of code across **271** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 14 | 0 | 2 | 0 |
-| last60d | 2026-09-09 | 0 | 0 | 31 | 0 | 5 | 0 |
-| 90d | 2026-08-10 | 0 | 0 | 49 | 1 | 14 | 0 |
-| last180d | 2026-05-12 | 1 | 5 | 94 | 5 | 48 | 11 |
-| 360d | 2025-11-13 | 1 | 14 | 126 | 11 | 88 | 36 |
-| last720d | 2024-11-18 | 31 | 158 | 159 | 83 | 158 | 253 |
+| 30d | 2026-10-10 | 0 | 0 | 14 | 0 | 2 | 0 |
+| last60d | 2026-09-10 | 0 | 0 | 31 | 0 | 5 | 0 |
+| 90d | 2026-08-11 | 0 | 0 | 47 | 1 | 14 | 0 |
+| last180d | 2026-05-13 | 1 | 5 | 94 | 5 | 47 | 11 |
+| 360d | 2025-11-14 | 1 | 14 | 126 | 11 | 88 | 36 |
+| last720d | 2024-11-19 | 31 | 158 | 159 | 83 | 157 | 253 |
 
 ## Release assets
 
@@ -78,7 +78,7 @@ Total: **15,918** lines of code across **271** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **215** distros on [repology.org](https://repology.org/project/eza). **60** are ✅ on the latest upstream release, **104** are ⚠️ on an older version.
+Reported by **215** distros on [repology.org](https://repology.org/project/eza). **65** are ✅ on the latest upstream release, **99** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,7 +92,7 @@ Reported by **215** distros on [repology.org](https://repology.org/project/eza).
 | Fedora rawhide | `0.23.5` | ✅ latest |
 | Nix unstable | `0.23.5` | ✅ latest |
 | Void | `0.23.5` | ✅ latest |
-| Alpine edge | `0.23.4` | ⚠️ outdated |
+| Alpine edge | `0.23.5` | ✅ latest |
 | openSUSE Tumbleweed | `0.23.5` | ✅ latest |
 
 ## Improve this data
@@ -104,4 +104,4 @@ Install metadata for eza lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:49:35Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T07:30:11Z._
