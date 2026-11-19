@@ -38,22 +38,22 @@ x install eza
 
 ## 流行度
 
-- **Star**: 23,932 · **Fork**: 556 · **开放 issue**: 700 · **贡献者**: 123
+- **Star**: 23,950 · **Fork**: 557 · **开放 issue**: 701 · **贡献者**: 123
 
 ## 累计统计
 
-- **发布数**: 96 · **已合并 PR**: 701 · **开放 PR**: 195 · **已关闭 issue**: 407 · **开放 issue**: 293 · **提交数**: 3372
+- **发布数**: 96 · **已合并 PR**: 701 · **开放 PR**: 197 · **已关闭 issue**: 407 · **开放 issue**: 294 · **提交数**: 3372
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 0 | 20 | 0 | 2 | 0 |
-| last60d | 2026-09-18 | 0 | 0 | 34 | 0 | 4 | 0 |
-| 90d | 2026-08-19 | 0 | 0 | 49 | 2 | 12 | 0 |
-| last180d | 2026-05-21 | 1 | 5 | 99 | 4 | 44 | 10 |
-| 360d | 2025-11-22 | 1 | 14 | 134 | 12 | 87 | 35 |
-| last720d | 2024-11-27 | 30 | 156 | 168 | 83 | 155 | 247 |
+| 30d | 2026-10-20 | 0 | 0 | 20 | 0 | 3 | 0 |
+| last60d | 2026-09-20 | 0 | 0 | 35 | 0 | 5 | 0 |
+| 90d | 2026-08-21 | 0 | 0 | 50 | 2 | 9 | 0 |
+| last180d | 2026-05-23 | 1 | 4 | 99 | 4 | 45 | 10 |
+| 360d | 2025-11-24 | 1 | 12 | 135 | 12 | 86 | 35 |
+| last720d | 2024-11-29 | 29 | 155 | 170 | 82 | 156 | 244 |
 
 ## Release 资产
 
@@ -76,6 +76,25 @@ x install eza
 | [eza_x86_64-unknown-linux-musl.zip](https://github.com/eza-community/eza/releases/download/v0.23.5/eza_x86_64-unknown-linux-musl.zip) | 1.3 MiB | `native/linux/x64/musl` |
 | [man-0.23.5.tar.gz](https://github.com/eza-community/eza/releases/download/v0.23.5/man-0.23.5.tar.gz) | 10.3 KiB | `native/unknown` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/eza) 上共有 **216** 个发行版报告此项目。**67** 个 ✅ 已是最新上游版本，**98** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.23.5` | ✅ latest |
+| Debian 14 | `0.23.5` | ✅ latest |
+| Debian 13 | `0.21.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.23.4` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.18.2` | ⚠️ outdated |
+| Arch | `0.23.5` | ✅ latest |
+| Homebrew | `0.23.5` | ✅ latest |
+| Fedora rawhide | `0.23.5` | ✅ latest |
+| Nix unstable | `0.23.5` | ✅ latest |
+| Void | `0.23.5` | ✅ latest |
+| Alpine edge | `0.23.5` | ✅ latest |
+| openSUSE Tumbleweed | `0.23.5` | ✅ latest |
+
 ## 改进这些数据
 
 eza 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `eza` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -85,4 +104,4 @@ eza 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T11:01:34Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T10:14:30Z._
