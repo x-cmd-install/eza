@@ -38,7 +38,7 @@ Total: **15,918** lines of code across **271** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 24,014 · **Forks**: 563 · **Open issues**: 702 · **Contributors**: 123
+- **Stars**: 24,030 · **Forks**: 565 · **Open issues**: 702 · **Contributors**: 123
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **15,918** lines of code across **271** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 20 | 0 | 4 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 36 | 0 | 6 | 0 |
-| 90d | 2026-08-26 | 0 | 0 | 50 | 2 | 9 | 0 |
-| last180d | 2026-05-28 | 1 | 4 | 101 | 4 | 45 | 10 |
-| 360d | 2025-11-29 | 1 | 11 | 137 | 12 | 87 | 32 |
-| last720d | 2024-12-04 | 29 | 154 | 172 | 80 | 156 | 244 |
+| 30d | 2026-10-26 | 0 | 0 | 20 | 0 | 4 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 34 | 0 | 6 | 0 |
+| 90d | 2026-08-27 | 0 | 0 | 49 | 2 | 9 | 0 |
+| last180d | 2026-05-29 | 1 | 4 | 101 | 4 | 45 | 10 |
+| 360d | 2025-11-30 | 1 | 11 | 137 | 12 | 87 | 32 |
+| last720d | 2024-12-05 | 29 | 152 | 172 | 80 | 156 | 244 |
 
 ## Release assets
 
@@ -76,25 +76,6 @@ Total: **15,918** lines of code across **271** files in the top 5 languages.
 | [eza_x86_64-unknown-linux-musl.zip](https://github.com/eza-community/eza/releases/download/v0.23.5/eza_x86_64-unknown-linux-musl.zip) | 1.3 MiB | `native/linux/x64/musl` |
 | [man-0.23.5.tar.gz](https://github.com/eza-community/eza/releases/download/v0.23.5/man-0.23.5.tar.gz) | 10.3 KiB | `native/unknown` |
 
-## Distribution status
-
-Reported by **216** distros on [repology.org](https://repology.org/project/eza). **67** are ✅ on the latest upstream release, **98** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.23.5` | ✅ latest |
-| Debian 14 | `0.23.5` | ✅ latest |
-| Debian 13 | `0.21.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.23.4` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.18.2` | ⚠️ outdated |
-| Arch | `0.23.5` | ✅ latest |
-| Homebrew | `0.23.5` | ✅ latest |
-| Fedora rawhide | `0.23.5` | ✅ latest |
-| Nix unstable | `0.23.5` | ✅ latest |
-| Void | `0.23.5` | ✅ latest |
-| Alpine edge | `0.23.5` | ✅ latest |
-| openSUSE Tumbleweed | `0.23.5` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for eza lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `eza` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -104,4 +85,4 @@ Install metadata for eza lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:41:00Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:11:35Z._
